@@ -14,3 +14,9 @@
 
   --main-font: 'IBM Plex mono';
 }
+
+@media (width <= 376px) {
+  .page.theme_dark {
+    --padding-inline: 10px;
+    --padding-block: 40px;
+  }

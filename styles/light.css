@@ -14,6 +14,12 @@
   --main-font: 'IBM Plex mono';
 }
 
+@media (width <= 376px) {
+  .page.theme_light {
+    --padding-inline: 10px;
+    --padding-block: 40px;
+  }
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #000028;
@@ -31,3 +37,9 @@
     --main-font: 'IBM Plex mono';
     }
 }
+
+@media (prefers-color-scheme: light) and (width <= 376px) {
+  :root {
+    --padding-inline: 10px;
+    --padding-block: 40px;
+  }
