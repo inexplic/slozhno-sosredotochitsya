@@ -301,6 +301,18 @@
   .heading {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
+  
+  .main__section {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .section__list {
+    grid-column: span 1;
+  }
+
+  .section__advice {
+    grid-column: span 1;
+  }
 
   .section-column > .section__list {
     grid-row: 2;
@@ -313,22 +325,20 @@
 @media (width <= 376px) {
   :root {
     --padding-inline: 10px;
+    --padding-block: 40px;
   }
   
   .header {
     grid-template-columns: 1fr;
   }
 
+  .heading {
+    margin-inline-start: 0;
+  }
+
   .main__section {
     grid-template-columns: 1fr;
-  }
-
-  .section__list {
-    grid-column: span 1;
-  }
-
-  .section__advice {
-    grid-column: span 1;
+    padding-block-end: 50px;
   }
 
   .gallery {
