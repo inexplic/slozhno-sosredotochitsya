@@ -19,6 +19,7 @@
     --padding-inline: 10px;
     --padding-block: 40px;
   }
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -43,3 +44,4 @@
     --padding-inline: 10px;
     --padding-block: 40px;
   }
+}
