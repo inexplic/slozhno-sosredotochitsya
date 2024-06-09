@@ -10,5 +10,7 @@
   --padding-inline: 20px;
   --padding-block: 60px;
 
+  --display: block;
+
   --main-font: 'IBM Plex mono';
 }

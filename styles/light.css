@@ -9,6 +9,8 @@
   --padding-inline: 20px;
   --padding-block: 60px;
 
+  --display: none;
+
   --main-font: 'IBM Plex mono';
 }
 
@@ -23,6 +25,8 @@
     --accent-color-hover: #FF007044;
     --padding-inline: 20px;
     --padding-block: 60px;
+
+    --display: none;
   
     --main-font: 'IBM Plex mono';
     }
