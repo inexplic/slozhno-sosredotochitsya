@@ -1,5 +1,5 @@
 .page.theme_light {
-  --bg-color: #000028;
+  --title-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
   --heading-color: #FFC2E6;
   --text-color: #353430;
@@ -23,13 +23,13 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #000028;
+    --title-color: #353430;
     --bg-image: url(../images/cover-image-light.png);
     --heading-color: #FFC2E6;
     --text-color: #353430;
     --accent-color: #FF8DCB;
     --accent-color-theme: #353430;
-    --accent-color-hover: #FF007044;
+    --accent-color-hover: #32312D44;
     --padding-inline: 20px;
     --padding-block: 60px;
 

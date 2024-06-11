@@ -50,7 +50,7 @@
 
 .header__theme-menu-list {
   list-style: none;
-  font-family: var(--main-font), 'Arial', sans-serif;
+  font-family: var(--main-font), 'Courier New', monospace;
   font-weight: 400;
   font-size: 18px;
   line-height: 1;
@@ -62,11 +62,13 @@
 }
 
 .header__theme-menu-button {
+  cursor: pointer;
   border: 1px solid transparent;
   padding: 1.5px 13px;
   background-color: transparent;
   text-transform: lowercase;
   user-select: none;
+  transition: border 0.6s;
 }
 
 .header__theme-menu-button:hover {
@@ -87,7 +89,7 @@
 }
 
 .decor-element {
-  font-family: var(--main-font), 'Arial', sans-serif;
+  font-family: var(--main-font), 'Courier New', monospace;
   color: var(--accent-color, #FF0070);
   text-transform: uppercase;
   font-size: 18px;
@@ -114,7 +116,7 @@
 
 .heading {
   text-transform: lowercase;
-  font-family: var(--main-font), 'Arial', sans-serif;
+  font-family: var(--main-font), 'Courier New', monospace;
   font-weight: bold;
   color: var(--heading-color, #DB00FF);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -131,9 +133,9 @@
 }
 
 .title-decor {
-  font-family: var(--main-font), 'Arial', sans-serif;
+  font-family: var(--main-font), 'Courier New', monospace;
   font-weight: bold;
-  color: var(--bg-color, #000028);
+  color: var(--title-color, #000028);
   font-size: 18px;
   background-color: var(--accent-color, #FF0070);
   text-align: start;
@@ -155,7 +157,7 @@
 
 .section__title {
   font-size: 18px;
-  font-family: var(--main-font), 'Arial', sans-serif;
+  font-family: var(--main-font), 'Courier New', monospace;
   line-height: 1.3;
   color: var(--accent-color-theme, #FF0070);
   font-weight: bold;
@@ -175,7 +177,7 @@
 }
 
 .section__description {
-  font-family: var(--main-font), 'Arial', sans-serif;
+  font-family: var(--main-font), 'Courier New', monospace;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.3;
@@ -278,7 +280,7 @@
 
 .footer__title {
   text-transform: lowercase;
-  font-family: var(--main-font), 'Arial', sans-serif;
+  font-family: var(--main-font), 'Courier New', monospace;
   font-weight: bold;
   color: var(--heading-color, #DB00FF);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -322,7 +324,7 @@
   }
 }
 
-@media (width <= 376px) {
+@media (width <= 767px) {
   :root {
     --padding-inline: 10px;
     --padding-block: 40px;
