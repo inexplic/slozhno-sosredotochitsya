@@ -232,7 +232,7 @@
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: minmax(192px, min(260px, 100%)) minmax(230px, min(315px, 100%)) minmax(318px, min(428px, 100%));
+  grid-template-rows: fit-content(260px) fit-content(315px) fit-content(432px);
   gap: var(--padding-inline, 20px);
   grid-template-areas: 
     "sunset sunset ice-cream"
@@ -274,7 +274,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  block-size: calc(100vh - var(--padding-inline));
+  block-size: 100vh;
   padding-block: var(--padding-inline, 20px);
 }
 
@@ -298,6 +298,7 @@
 
   .header__theme-menu-list {
     flex-direction: column;
+    gap: 15px;
   }
 
   .heading {
@@ -321,6 +322,10 @@
     grid-column: 1 / 4;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+  }
+
+  .footer__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
 
